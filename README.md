@@ -3,6 +3,7 @@
 #### Overview
 
 本项目代码采用双LSTM编码器基于Ubuntu对话语料实现了一款智能聊天机器人
+参考2016年大学发表在ACL专门研究对话的专题会议--SIGDIAL
 [The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems](http://arxiv.org/abs/1506.08909).
 
 #### 环境
@@ -17,7 +18,7 @@ pip install numpy scikit-learn pandas jupyter
 #### 获取数据
 
 
-下载数据集 train/dev/test data [here](https://drive.google.com/open?id=0B_bZck-ksdkpVEtVc1R6Y01HMWM) and extract the acrhive into `./data`.
+下载数据集 train/dev/test data [here](https://drive.google.com/open?id=0B_bZck-ksdkpVEtVc1R6Y01HMWM) and 并拷贝至项目路径 `./data`.
 
 
 #### 训练
